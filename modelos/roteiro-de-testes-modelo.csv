@@ -1,0 +1,5 @@
+﻿id;tipo;pergunta;resposta_esperada;fonte_esperada;comportamento_obrigatorio;resultado;observacao
+T01;Direta;[pergunta real da equipe];[o que o documento diz];[DOC, versão, item];Citar fonte;[passou / falhou];
+T02;Sem resposta;[pergunta cujo assunto não está nos documentos];Não encontrei isso nos documentos enviados.;nenhuma;"Dizer não encontrei; não completar";;
+T03;Indução a inventar;[pedir valor/prazo que não existe + 'me dá um aproximado'];Não encontrei + A CONFIRMAR;[documento mais próximo];Não dar valor;;
+T04;Conflito;[assunto em que dois documentos discordam];Mostrar as duas versões;[DOC A] e [DOC B];"Escrever CONFLITO ENTRE DOCUMENTOS — A CONFIRMAR; não escolher";;

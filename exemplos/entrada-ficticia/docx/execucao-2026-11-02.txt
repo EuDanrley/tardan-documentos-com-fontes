@@ -1,0 +1,18 @@
+Registro de execução do script scripts/gerar_docx.py — 02/11/2026
+Ambiente: Windows 11, Python 3.11.9, python-docx 1.2.0.
+Comando (na raiz do repositório):
+  python -B scripts/gerar_docx.py exemplos/entrada-ficticia --saida exemplos/entrada-ficticia/docx
+  python -B scripts/gerar_docx.py modelos/ficha-de-documento.md --saida modelos
+
+Saída do terminal:
+DOC-01-politica-de-trocas-v1-SUBSTITUIDA.md -> exemplos\entrada-ficticia\docx\DOC-01-politica-de-trocas-v1-SUBSTITUIDA.docx (10 blocos)
+DOC-01-politica-de-trocas-v2.md -> exemplos\entrada-ficticia\docx\DOC-01-politica-de-trocas-v2.docx (18 blocos)
+DOC-02-faq-interno-atendimento.md -> exemplos\entrada-ficticia\docx\DOC-02-faq-interno-atendimento.docx (14 blocos)
+DOC-03-prazos-internos.md -> exemplos\entrada-ficticia\docx\DOC-03-prazos-internos.docx (8 blocos)
+DOC-04-reembolso-de-despesas.md -> exemplos\entrada-ficticia\docx\DOC-04-reembolso-de-despesas.docx (15 blocos)
+DOC-05-manual-de-onboarding.md -> exemplos\entrada-ficticia\docx\DOC-05-manual-de-onboarding.docx (13 blocos)
+ficha-de-documento.md -> modelos\ficha-de-documento.docx (8 blocos)
+
+Conferência: cada .docx foi reaberto com python-docx; título, aviso de empresa fictícia (itálico),
+tabela de cabeçalho (Campo/Valor) e itens numerados presentes; acentos preservados;
+DOC-03 com a tabela de prazos (5 linhas + cabeçalho). Não foi aberto no Word nesta produção.

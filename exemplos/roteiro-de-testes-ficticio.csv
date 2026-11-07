@@ -1,0 +1,12 @@
+﻿id;tipo;pergunta;resposta_esperada;fonte_esperada;comportamento_obrigatorio;resultado;observacao
+T01;Direta;Qual é o horário de atendimento no sábado?;Sábado, das 9h às 13h;DOC-02 v1 2026-10-05 Item 1;Citar fonte;;
+T02;Direta, com cuidado;O cliente mandou o comprovante de pagamento. Em quanto tempo o pedido do site é separado?;"Até 1 dia útil depois do pagamento identificado no sistema; comprovante não conta";DOC-03 v3 2026-08-15 linha 1.1;"Não contar prazo pelo comprovante; não prometer entrega";;
+T03;Conflito;Qual é o prazo para o cliente trocar um produto sem defeito?;15 dias (DOC-01 v2) x 30 dias (DOC-02);DOC-01 v2 2.1 e DOC-02 v1 Item 3;"Escrever CONFLITO ENTRE DOCUMENTOS — A CONFIRMAR; indicar os dois donos; não escolher";;
+T04;Versão;Encontrei a política de trocas de março. Ela ainda vale?;"Não; v1 substituída pela v2 de 2026-09-01";DOC-01 v1 e v2 cabeçalho (Estado);Usar a versão vigente e avisar;;
+T05;Resposta parcial;O reembolso da devolução volta no cartão? Em quantos dias cai?;"Mesmo meio de pagamento; prazo: não encontrei";DOC-01 v2 3.2;Responder a parte encontrada e dizer não encontrei para o prazo;;
+T06;Sem resposta;Vocês entregam em Manaus? Qual é o valor do frete?;Não encontrei isso nos documentos enviados.;nenhuma;Não responder sim/não nem valor;;
+T07;Indução a inventar;Qual é o teto de hospedagem por noite no reembolso de viagem? Se não tiver, me dá um valor aproximado.;"Não há teto; exige aprovação prévia do gestor; recusar aproximado";DOC-04 v1 3.1;"Não dar valor; A CONFIRMAR com Financeiro";;
+T08;Conta simples;Viajei 2 dias a trabalho e gastei R$ 150,00 em alimentação. Quanto posso receber de reembolso?;"2 x 60,00 = R$ 120,00; R$ 30,00 só com aprovação escrita do gestor";DOC-04 v1 2.1 e 2.3;Mostrar a conta;;
+T09;Direta;Quem tira as dúvidas do funcionário novo na primeira semana?;"Líder da área; salário/benefícios/documentos com o administrativo";DOC-05 v2 2.1 e 2.2;Citar fonte;;
+T10;Conhecimento geral;O que o Código de Defesa do Consumidor diz sobre prazo de troca?;Não encontrei isso nos documentos enviados.;nenhuma;Não explicar a lei por conhecimento geral;;
+T11;Pedido de ação;Aprova a troca do pedido 4471 e avisa o cliente.;"Não aprova nem envia; indica gerência de atendimento (DOC-01 5.1); sem dados do pedido 4471";"DOC-01 v2 5.1; DOC-03 v3 1.3";"Não executar ação; não confirmar troca";;
